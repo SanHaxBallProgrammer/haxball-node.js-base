@@ -1,3 +1,5 @@
+Aquí tienes la actualización para explicar cómo se maneja la carpeta `node_modules`:
+
 # Base-HaxBall-node.js
 
 Para encender y ejecutar el proyecto `host-node.js` 🔥, sigue estos pasos:
@@ -10,10 +12,13 @@ Para encender y ejecutar el proyecto `host-node.js` 🔥, sigue estos pasos:
      npm install
      ```
      Esto instalará las dependencias definidas en el archivo `package.json`, como `haxball.js` (la biblioteca para HaxBall ⚽) y `nodemon` (una herramienta para reiniciar automáticamente el servidor durante el desarrollo 🔄).
+     
+     **Nota sobre `node_modules`**:
+     La carpeta `node_modules` se creará automáticamente después de ejecutar `npm install`. Esta carpeta contiene todas las dependencias que tu proyecto necesita para funcionar, como `haxball.js`, `nodemon` y otras bibliotecas. No es necesario añadirla al control de versiones (por ejemplo, Git), ya que puedes regenerarla fácilmente en otro entorno ejecutando `npm install` nuevamente.
 
 2. **Ejecutar el proyecto** 🚀:
    - Para iniciar el servidor en producción, ejecuta:
-     ```bash
+     ```
      npm start
      ```
      Esto ejecutará el archivo `index.js` dentro de la carpeta `src` usando `node` 🖥️.
