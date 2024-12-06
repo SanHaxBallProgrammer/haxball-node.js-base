@@ -1,5 +1,3 @@
-Aquí tienes la actualización para explicar cómo se maneja la carpeta `node_modules`:
-
 # Base-HaxBall-node.js
 
 Para encender y ejecutar el proyecto `host-node.js` 🔥, sigue estos pasos:
